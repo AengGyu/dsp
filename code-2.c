@@ -12,7 +12,7 @@ int main() {
     unsigned char* input = (unsigned char*)malloc(sizeof(unsigned char) * 512 * 512);
     unsigned char* output = (unsigned char*)malloc(sizeof(unsigned char) * 512 * 512);
 
-    fp_in = fopen("lena.img", "rb");
+    fp_in = fopen("output_1", "rb");
     if (fp_in == NULL) {
         perror("fopen");
         exit(1);
